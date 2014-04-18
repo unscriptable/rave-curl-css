@@ -1,6 +1,6 @@
 {
   "name": "rave-curl-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds curl's css AMD plugin to RaveJS.",
   "main": "rave.js",
   "rave": "rave",
