@@ -1,33 +1,35 @@
 {
-  "name": "rave-curl-css",
-  "version": "0.0.3",
-  "authors": [
-	  "John Hann (http://unscriptable.com)"
-  ],
-  "description": "Adds curl's css AMD plugin to RaveJS.",
-  "main": "rave.js",
-  "dependencies": {
-    "curl": "~0.8",
-    "rave-amd-plugins": "~0"
-  },
-  "rave": "rave",
-  "moduleType": [
-    "node"
-  ],
-  "keywords": [
-    "rave",
-    "rave-extension",
-    "cujo",
-    "cujojs",
-    "amd",
-    "plugin"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+	"name": "rave-curl-css",
+	"version": "0.1.0",
+	"description": "Adds curl's css AMD plugin to RaveJS.",
+	"main": "rave.js",
+	"dependencies": {
+		"curl": "~0.8",
+		"rave-amd-plugins": "~0.1"
+	},
+	"rave": "rave",
+	"moduleType": [
+		"node"
+	],
+	"keywords": [
+		"rave",
+		"rave-extension",
+		"cujo",
+		"cujojs",
+		"amd",
+		"plugin"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/unscriptable/rave-curl-css",
+	"authors": [
+		"John Hann (http://unscriptable.com)",
+		"Brian Cavalier (http://hovercraftstudios.com)"
+	],
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }

@@ -3,19 +3,16 @@
 /** @author John Hann */
 
 var css = require('curl/plugin/css');
-var raveAmdPlugins = require('rave-amd-plugins');
 
 exports.create = create;
 
 function create (context) {
-	if (!context.amdPluginMap) context.amdPluginMap = {};
-	context.amdPluginMap.css = 'curl/plugin/css';
-
-
-	var base = raveAmdPlugins.create(context);
-	var baseFilter = base.pluginFilter;
-	base.pluginFilter = function (load) {
-		return baseFilter.apply(this, arguments) === 'css';
+	var info = {
+		name: 'curl/plugin/css',
+		module: css
 	};
-	return base;
+	if (!context.amdPluginMap) context.amdPluginMap = {};
+	context.amdPluginMap['css']
+		= context.amdPluginMap['curl/plugin/css']
+		= info;
 }
