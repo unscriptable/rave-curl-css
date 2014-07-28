@@ -1,14 +1,19 @@
 {
 	"name": "rave-curl-css",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Adds curl's css AMD plugin to RaveJS.",
 	"main": "rave.js",
-	"rave": "rave",
-	"dependencies": {
-		"curl": "~0.8"
+	"rave": {
+		"extension": "rave",
+		"overrides": {
+			"curl": {
+				"location": "node_modules/curl/src/curl"
+			}
+		}
 	},
 	"peerDependencies": {
-		"rave-amd-plugins": "~0.1"
+		"curl": "~0.8",
+		"rave-amd-plugins": "~0.2"
 	},
 	"repository": {
 		"type": "git",
