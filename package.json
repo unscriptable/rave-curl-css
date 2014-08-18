@@ -7,7 +7,9 @@
 		"extension": "rave",
 		"overrides": {
 			"curl": {
-				"location": "node_modules/curl/src/curl"
+				"directories": {
+					"lib": "bower_components/curl/src/curl"
+				}
 			}
 		}
 	},

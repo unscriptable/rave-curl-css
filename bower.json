@@ -11,7 +11,9 @@
 		"extension": "rave",
 		"overrides": {
 			"curl": {
-				"location": "bower_components/curl/src/curl"
+				"directories": {
+					"lib": "bower_components/curl/src/curl"
+				}
 			}
 		}
 	},
